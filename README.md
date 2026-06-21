@@ -1,16 +1,186 @@
-# React + Vite
+# 🚀 QueueLess - Smart Virtual Queue Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QueueLess is a full-stack queue management application that helps users avoid standing in physical queues by joining and tracking queues virtually.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Live Application:
+https://queueless-frontend-three.vercel.app
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Repository:
+https://github.com/Maheswari755/queueless-frontend
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 Project Overview
+
+QueueLess allows users to:
+
+- Join virtual queues
+- Receive token numbers automatically
+- Track queue status in real time
+- View people ahead in the queue
+- Leave queues when required
+- View queue history
+- Admin can manage queue entries
+
+The system aims to reduce waiting time and improve queue management in places such as:
+
+- College Canteens
+- Libraries
+- Faculty Appointments
+- Event Registrations
+- Hospitals
+- Government Offices
+
+---
+
+## ✨ Features
+
+### User Features
+
+✅ User Registration
+
+✅ User Login
+
+✅ Join Queue
+
+✅ Auto Token Generation
+
+✅ Live Queue Tracking
+
+✅ View Queue Status
+
+✅ Leave Queue
+
+✅ Queue History
+
+### Admin Features
+
+✅ View Queue Entries
+
+✅ Serve Next Customer
+
+✅ Skip Customer
+
+✅ Manage Queue Flow
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Axios
+
+### Backend
+
+- Spring Boot
+- Java
+- REST APIs
+
+### Database
+
+- MySQL
+
+### Deployment
+
+- GitHub
+- Vercel
+
+---
+
+## 🏗️ System Architecture
+
+User Interface (React)
+
+⬇
+
+REST API Calls (Axios)
+
+⬇
+
+Spring Boot Backend
+
+⬇
+
+MySQL Database
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+
+- View available services
+- Join queues instantly
+
+### Live Tracking
+
+- Token Number
+- Queue Status
+- Estimated Waiting Time
+
+### Queue History
+
+- Complete queue records
+- Status tracking
+- Delete history option
+
+### Admin Panel
+
+- Manage customers
+- Serve or skip users
+
+---
+
+## 🔄 Workflow
+
+1. User registers and logs in.
+2. User selects a service.
+3. System generates a unique token.
+4. Queue position is assigned automatically.
+5. User tracks queue status.
+6. Admin serves or skips users.
+7. Queue positions update dynamically.
+8. Queue history is stored.
+
+---
+
+## 🎯 Future Enhancements
+
+- Real-time notifications
+- SMS alerts
+- Email alerts
+- QR-based queue joining
+- Mobile application
+- AI-based wait-time prediction
+- Multi-branch queue management
+
+---
+
+## 👩‍💻 Developer
+
+Maheswari Boppana
+
+B.Tech CSE
+
+CMR College of Engineering & Technology (CMRCET)
+
+GitHub:
+https://github.com/Maheswari755
+
+---
+
+## 📌 Note
+
+Frontend is deployed on Vercel.
+
+Backend was developed using Spring Boot and MySQL and tested locally during development.
